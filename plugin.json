@@ -1,0 +1,42 @@
+{
+  "name": "shit-sui-minter",
+  "version": "0.1.0",
+  "description": "Codex plugin for public SHIT minting on Sui testnet through an HTTP MCP server.",
+  "author": {
+    "name": "SHIT Sui Minter",
+    "email": "support@example.com",
+    "url": "https://curvy-duck-31.loca.lt/healthz"
+  },
+  "homepage": "https://curvy-duck-31.loca.lt/healthz",
+  "repository": "local",
+  "license": "MIT",
+  "keywords": [
+    "sui",
+    "mcp",
+    "mint",
+    "testnet"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "SHIT Sui Minter",
+    "shortDescription": "Mint SHIT on Sui testnet through Codex.",
+    "longDescription": "Guides users through checking eligibility, preparing a sponsored Sui mint transaction, collecting the user's wallet signature, and submitting the mint through the SHIT Sui MCP server.",
+    "developerName": "SHIT Sui Minter",
+    "category": "Blockchain",
+    "capabilities": [
+      "Interactive",
+      "MCP",
+      "Blockchain"
+    ],
+    "websiteURL": "https://curvy-duck-31.loca.lt/healthz",
+    "privacyPolicyURL": "https://example.com/privacy",
+    "termsOfServiceURL": "https://example.com/terms",
+    "defaultPrompt": [
+      "mint 1 SHIT untuk wallet Sui saya",
+      "mint 10 SHIT untuk wallet Sui saya",
+      "cek sisa mint SHIT wallet saya"
+    ],
+    "brandColor": "#00A67E"
+  }
+}

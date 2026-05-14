@@ -1,0 +1,20 @@
+{
+  "name": "shit-sui-marketplace",
+  "interface": {
+    "displayName": "SHIT Sui Testnet"
+  },
+  "plugins": [
+    {
+      "name": "shit-sui-minter",
+      "source": {
+        "source": "local",
+        "path": "./plugins/shit-sui-minter"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Blockchain"
+    }
+  ]
+}

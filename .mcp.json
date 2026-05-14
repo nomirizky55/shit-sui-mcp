@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "shit-sui-minter": {
+      "type": "http",
+      "transport": "streamable-http",
+      "url": "https://curvy-duck-31.loca.lt/mcp",
+      "headers": {
+        "Authorization": "Bearer ${MCP_OAUTH_BEARER_TOKEN}"
+      }
+    }
+  }
+}
